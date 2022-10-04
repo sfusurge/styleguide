@@ -4,6 +4,7 @@
 
 A preset configuration for [prettier](https://prettier.io/).
 
+[![Prettier](https://github.com/sfusurge/styleguide/actions/workflows/prettier.yml/badge.svg)](https://github.com/sfusurge/styleguide/actions/workflows/prettier.yml)
 
 ## Installation
 

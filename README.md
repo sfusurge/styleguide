@@ -11,6 +11,7 @@ TODO
 ## Presets
 
 - [@sfusurge/prettier-config](config/prettier) (`prettier`)
+- [@sfusurge/eslint-config](config/eslint) (`eslint`)
 
 ## Contributing
 
