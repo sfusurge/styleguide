@@ -14,6 +14,10 @@ TODO
 - [@sfusurge/eslint-config](config/eslint) (`eslint`)
 - [@sfusurge/craco-config](config/craco) (`craco`)
 
+## Using GitHub Actions
+
+In order to properly use the presets within the GitHub Actions CI environment, you first need to add repository access on `https://github.com/orgs/sfusurge/packages/npm/<package-name>/settings` for each preset.
+
 ## Contributing
 
 To release a new package, create and push a new tag in the format of `v1.2.3`. The CI will automatically publish the packages with the version `1.2.3`.
