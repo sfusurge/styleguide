@@ -12,6 +12,15 @@ module.exports = {
 			"varsIgnorePattern": "^_.*",
 		}],
 	},
+
+	overrides: [
+		{
+			files: ["**/*.{ts,tsx}"],
+			rules: {
+				"no-unused-vars": ["off"]
+			}
+		},
+	],
 	
 	plugins: [
 		"prettier"
