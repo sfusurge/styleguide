@@ -11,3 +11,7 @@ TODO
 ## Presets
 
 - TODO
+
+## Contributing
+
+To release a new package, create and push a new tag in the format of `v1.2.3`. The CI will automatically publish the packages with the version `1.2.3`.
