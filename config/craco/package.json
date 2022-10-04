@@ -5,12 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "mergician": "^1.0.3",
-    "react-app-alias": "^2.2.2"
+    "react-app-alias": "^2.2.2",
+    "sass-resources-loader": "^2.2.5"
   },
   "peerDependencies": {
+    "craco": "*",
     "react": "*",
-    "react-scripts": "*",
-    "craco": "*"
+    "react-scripts": "*"
   },
   "scripts": {
     "test": "cd test && npm install && CI=1 npx craco build"

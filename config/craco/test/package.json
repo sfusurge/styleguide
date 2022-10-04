@@ -28,6 +28,9 @@
       "react-app/jest"
     ]
   },
+  "sassResources": [
+    "./src/mixins.scss"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
