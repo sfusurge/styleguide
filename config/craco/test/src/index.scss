@@ -13,3 +13,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+test {
+  // This will fail if sass-resources-loader doesn't work.
+  content: $var;
+}

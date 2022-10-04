@@ -5,6 +5,10 @@ module.exports = {
 		{
 			plugin: CracoAliasPlugin,
 			options: {}
+		},
+		{
+			plugin: require('./plugin-sass-resources-loader'),
+			options: {}
 		}
-	]
+	],
 }

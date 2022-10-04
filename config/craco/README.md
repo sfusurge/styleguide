@@ -22,3 +22,15 @@ module.exports = surge({
 ## Bundled Plugins
 
 * [react-app-alias](https://www.npmjs.com/package/react-app-alias)
+* [sass-resources-loader](https://www.npmjs.com/package/sass-resources-loader)
+  To use `sass-resources-loader`, add a `sassResources` array to your `package.json` file:
+
+  ```json
+  {
+    ...
+    "sassResources": [
+        "./src/mixins.scss"
+    ]
+    ...
+  }
+  ```
