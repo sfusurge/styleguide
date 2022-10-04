@@ -4,7 +4,13 @@ module.exports = {
 	],
 
 	rules: {
-		"prettier/prettier": "warn"
+		"prettier/prettier": "warn",
+		"no-unused-vars": ["warn", {
+			"varsIgnorePattern": "^_.*",
+		}],
+		"@typescript-eslint/no-unused-vars": ["warn", {
+			"varsIgnorePattern": "^_.*",
+		}],
 	},
 	
 	plugins: [
