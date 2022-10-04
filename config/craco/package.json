@@ -1,0 +1,32 @@
+{
+  "name": "@sfusurge/craco-config",
+  "version": "0.0.0-set-by-ci",
+  "description": "Configuration for craco.",
+  "main": "index.js",
+  "dependencies": {
+    "mergician": "^1.0.3",
+    "react-app-alias": "^2.2.2"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-scripts": "*",
+    "craco": "*"
+  },
+  "scripts": {
+    "test": "cd test && npm install && CI=1 npx craco build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfusurge/styleguide.git"
+  },
+  "author": "sfusurge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sfusurge/styleguide/issues"
+  },
+  "homepage": "https://github.com/sfusurge/styleguide#readme",
+  "keywords": [
+    "sfusurge",
+    "cracoconfig"
+  ]
+}

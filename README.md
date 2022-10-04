@@ -12,6 +12,7 @@ TODO
 
 - [@sfusurge/prettier-config](config/prettier) (`prettier`)
 - [@sfusurge/eslint-config](config/eslint) (`eslint`)
+- [@sfusurge/craco-config](craco/eslint) (`craco`)
 
 ## Contributing
 
