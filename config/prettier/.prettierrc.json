@@ -1,0 +1,29 @@
+{
+	"printWidth": 120,
+	"tabWidth": 4,
+	"useTabs": true,
+	"semi": true,
+	"singleQuote": false,
+	"quoteProps": "as-needed",
+	"jsxSingleQuote": false,
+	"trailingComma": "es5",
+	"bracketSpacing": true,
+	"bracketSameLine": true,
+	"arrowParens": "always",
+	"proseWrap": "preserve",
+	"htmlWhitespaceSensitivity": "strict",
+	"endOfLine": "lf",
+
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true,
+	"importOrder": [
+		"<THIRD_PARTY_MODULES>",
+		"^(react|recoil)(-.*)?(/.*)?$",
+		"^(\\$surge|surge-.*)(/.*)?$",
+		"^~(/.*)?$",
+		"^\\$page/(.*)$",
+		"^\\$asset/(.*)$",
+		"^[./](.*)\\.(ts|js)x?$",
+		"^[./]"
+	]
+}

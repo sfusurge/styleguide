@@ -10,7 +10,7 @@ TODO
 
 ## Presets
 
-- TODO
+- [@sfusurge/prettier-config](config/prettier) (`prettier`)
 
 ## Contributing
 
