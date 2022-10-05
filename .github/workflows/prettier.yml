@@ -4,9 +4,10 @@ on:
 
 jobs:
   prettier:
-    uses: 'sfusurge/actions-workflows/.github/workflows/npm-publish.yml@v1'
+    uses: 'sfusurge/actions-workflows/.github/workflows/npm-publish.yml@main'
     with:
-      workflow-ref: "v1"
+      workflow-ref: "main"
+      cache-key: "${{ github.job }}"
       package: "config/prettier"
       publish-gpr: ${{ startsWith(github.ref, 'refs/tags/v') }}
       replace-version: "${{ github.ref_name }}"
