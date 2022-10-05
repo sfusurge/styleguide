@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+        // Target ES5 with ES6 modules, for the browser.
+		"target": "ES5",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"module": "esnext",
+
+        // We write code exclusively in TypeScript.
+		"allowJs": false,
+
+        // Performance options.
+		"skipLibCheck": true,
+
+        // Interop options.
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+
+        // Strictness options.
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"isolatedModules": true,
+
+		// Features.
+		"experimentalDecorators": true,
+
+        // React App Scripts.
+		"noEmit": true,
+		"jsx": "react-jsx",
+	}
+}
