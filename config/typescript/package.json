@@ -1,0 +1,31 @@
+{
+  "name": "@sfusurge/typescript-config",
+  "version": "0.0.0-set-by-ci",
+  "description": "Configuration for eslint.",
+  "main": "tsconfig.json",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "optionalDependencies": {
+    "react": "*"
+  },
+  "scripts": {
+    "test": "cd test && tsc Compiles.ts --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfusurge/styleguide.git"
+  },
+  "author": "sfusurge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sfusurge/styleguide/issues"
+  },
+  "homepage": "https://github.com/sfusurge/styleguide#readme",
+  "keywords": [
+    "sfusurge",
+    "tsconfig"
+  ]
+}
