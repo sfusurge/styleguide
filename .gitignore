@@ -1,5 +1,6 @@
 # dependencies
 node_modules
+ci-setup.started
 
 # misc
 .DS_Store

@@ -1,0 +1,7 @@
+*.ts
+!*.d.ts
+ci-setup.sh
+ci-setup.started
+
+tsconfig.json
+.gitignore

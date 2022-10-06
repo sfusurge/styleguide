@@ -1,0 +1,45 @@
+{
+  "name": "@sfusurge/surge-scripts",
+  "version": "0.0.0-set-by-ci",
+  "description": "Utility scripts for building projects.",
+  "main": "index.js",
+  "dependencies": {
+    "mergician": "^1.0.3",
+    "semver": "^7.3.8"
+  },
+  "devDependencies": {
+    "@sfusurge/eslint-config": "=0.0.0-set-by-ci",
+    "@sfusurge/prettier-config": "=0.0.0-set-by-ci",
+    "@sfusurge/typescript-config": "=0.0.0-set-by-ci",
+    "@types/node": "^18.8.3",
+    "@types/semver": "^7.3.12",
+    "ts-node": "^10.9.1"
+  },
+  "bin": {
+    "surge-scripts": "./bin/surge-scripts.js"
+  },
+  "scripts": {
+    "build": "ts-node ./bin/surge-scripts.ts build",
+    "format": "ts-node ./bin/surge-scripts.ts format 'bin/**/*.ts' 'src/**/*.ts' index.ts",
+    "lint": "ts-node ./bin/surge-scripts.ts lint 'bin/**/*.ts' 'src/**/*.ts' index.ts",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfusurge/styleguide.git"
+  },
+  "author": "sfusurge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sfusurge/styleguide/issues"
+  },
+  "homepage": "https://github.com/sfusurge/styleguide#readme",
+  "keywords": [
+    "sfusurge"
+  ],
+  "eslintConfig": {
+    "extends": "@sfusurge"
+  },
+  "prettier": "@sfusurge/prettier-config",
+  "peerDependencies": {}
+}

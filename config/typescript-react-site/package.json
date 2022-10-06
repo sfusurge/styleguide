@@ -1,0 +1,34 @@
+{
+	"name": "@sfusurge/typescript-react-site",
+	"version": "0.0.0-set-by-ci",
+	"description": "Configuration for TypeScript + React modules.",
+	"main": "tsconfig.json",
+	"peerDependencies": {
+		"@sfusurge/typescript-react-config": "=0.0.0-set-by-ci",
+		"@sfusurge/craco-config": "=0.0.0-set-by-ci",
+		"@sfusurge/surge-scripts": "=0.0.0-set-by-ci",
+		"craco": "=0.0.3",
+		"react": "*",
+		"react-dom": "*",
+		"react-scripts": "=5.0.1",
+		"sass": "*",
+		"typescript": "*"
+	},
+	"scripts": {
+		"test": "cd test && npm install && surge-scripts format --check 'src/*.tsx' && surge-scripts lint 'src/*.tsx' && surge-scripts build && surge-scripts test --testPathPattern 'src/.*\\.test\\.tsx$'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sfusurge/styleguide.git"
+	},
+	"author": "sfusurge",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/sfusurge/styleguide/issues"
+	},
+	"homepage": "https://github.com/sfusurge/styleguide#readme",
+	"keywords": [
+		"sfusurge",
+		"tsconfig"
+	]
+}

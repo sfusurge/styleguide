@@ -1,23 +1,24 @@
 {
 	"compilerOptions": {
-        // Target ES5 with ES6 modules, for the browser.
+		// Target ES5 with ES6 modules, for the browser.
 		"target": "ES5",
-		"lib": ["dom", "dom.iterable", "esnext"],
+		"lib": ["esnext"],
 		"module": "esnext",
+		"types": ["jest"],
 
-        // We write code exclusively in TypeScript.
+		// We write code exclusively in TypeScript.
 		"allowJs": false,
 
-        // Performance options.
+		// Performance options.
 		"skipLibCheck": true,
 
-        // Interop options.
+		// Interop options.
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
 		"moduleResolution": "node",
 		"resolveJsonModule": true,
 
-        // Strictness options.
+		// Strictness options.
 		"strict": true,
 		"forceConsistentCasingInFileNames": true,
 		"noFallthroughCasesInSwitch": true,
@@ -26,10 +27,7 @@
 		"isolatedModules": true,
 
 		// Features.
-		"experimentalDecorators": true,
-
-        // React App Scripts.
-		"noEmit": true,
-		"jsx": "react-jsx",
-	}
+		"experimentalDecorators": true
+	},
+	"exclude": ["**/*.test.ts", "**/*.test.tsx"]
 }

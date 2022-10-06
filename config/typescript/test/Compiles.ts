@@ -1,4 +1,4 @@
-export default function() {
-    const x: string = "hi";
-    return x;
+export default function something() {
+	const x: string = "hi";
+	return x;
 }

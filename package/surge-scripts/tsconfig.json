@@ -1,0 +1,16 @@
+{
+	"extends": "@sfusurge/typescript-config",
+	"compilerOptions": {
+		"target": "ES2017",
+		"types": ["node"],
+		"module": "commonjs",
+
+		"downlevelIteration": true,
+
+		"outDir": null,
+		"declarationDir": null,
+
+		"declaration": true,
+		"sourceMap": true
+	}
+}

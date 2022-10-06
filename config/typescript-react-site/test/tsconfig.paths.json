@@ -1,0 +1,6 @@
+{
+	"extends": "@sfusurge/typescript-react-site",
+	"compilerOptions": {
+		"baseUrl": "."
+	}
+}

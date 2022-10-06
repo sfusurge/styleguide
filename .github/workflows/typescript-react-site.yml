@@ -1,0 +1,13 @@
+name: TypeScript React App
+on:
+  push: {}
+
+jobs:
+  typescript:
+    uses: 'sfusurge/actions-workflows/.github/workflows/npm-publish.yml@v1'
+    with:
+      workflow-ref: "v1"
+      cache-key: "typescript-react-site"
+      package: "config/typescript-react-site"
+      publish-gpr: ${{ startsWith(github.ref, 'refs/tags/v') }}
+      replace-version: "${{ github.ref_name }}"

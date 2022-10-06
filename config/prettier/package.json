@@ -1,26 +1,27 @@
 {
-  "name": "@sfusurge/prettier-config",
-  "version": "0.0.0-set-by-ci",
-  "description": "Configuration for prettier.",
-  "main": ".prettierrc.json",
-  "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": ">=3"
-  },
-  "peerDependencies": {
-    "prettier": ">=2.7"
-  },
-  "scripts": {
-    "test": "prettier --check test && exit 1 || exit 0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sfusurge/styleguide.git"
-  },
-  "author": "sfusurge",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sfusurge/styleguide/issues"
-  },
-  "homepage": "https://github.com/sfusurge/styleguide#readme",
-  "keywords": ["sfusurge", "prettierconfig"]
+	"name": "@sfusurge/prettier-config",
+	"version": "0.0.0-set-by-ci",
+	"description": "Configuration for prettier.",
+	"main": ".prettierrc.json",
+	"peerDependencies": {
+		"@trivago/prettier-plugin-sort-imports": ">=3",
+		"prettier": ">=2.7"
+	},
+	"scripts": {
+		"test": "prettier --check test && exit 1 || exit 0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sfusurge/styleguide.git"
+	},
+	"author": "sfusurge",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/sfusurge/styleguide/issues"
+	},
+	"homepage": "https://github.com/sfusurge/styleguide#readme",
+	"keywords": [
+		"sfusurge",
+		"prettierconfig"
+	]
 }

@@ -1,0 +1,10 @@
+{
+	"extends": "@sfusurge/typescript-config",
+	"compilerOptions": {
+		// Add browser libraries.
+		"lib": ["dom", "dom.iterable", "esnext"],
+
+		// React.
+		"jsx": "react-jsx"
+	}
+}

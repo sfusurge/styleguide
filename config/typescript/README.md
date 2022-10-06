@@ -1,4 +1,4 @@
-# @sfusurge/typescript-config 
+# @sfusurge/typescript-config
 
 <img src="../../.github/assets/surge.svg" alt="SFU Surge Logo" />
 
@@ -12,6 +12,18 @@ After installing `@sfusurge/typescript-config` as a developer dependency, create
 
 ```json
 {
-    "extends": "@sfusurge/typescript-config"
+  "extends": "@sfusurge/typescript-config"
+}
+```
+
+For unit testing, add a `test` script to run `surge-test` in `package.json`:
+
+```json
+{
+  ...
+  "scripts": {
+    "test": "surge-test"
+  }
+  ...
 }
 ```

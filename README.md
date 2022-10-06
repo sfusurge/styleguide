@@ -13,7 +13,9 @@ TODO
 - [@sfusurge/prettier-config](config/prettier) (`prettier`)
 - [@sfusurge/eslint-config](config/eslint) (`eslint`)
 - [@sfusurge/craco-config](config/craco) (`craco`)
-- [@sfusurge/typescript-config](config/typescript) (`typescript`, for React websites)
+- [@sfusurge/typescript-config](config/typescript) (`typescript`)
+- [@sfusurge/typescript-react-config](config/typescript-react) (`typescript`, for React components)
+- [@sfusurge/typescript-react-site](config/typescript-react-site) (`typescript`, for React websites)
 
 ## Using GitHub Actions
 
