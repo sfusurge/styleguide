@@ -1,3 +1,13 @@
 {
-	"extends": "@sfusurge/typescript-react-config"
+	"extends": "@sfusurge/typescript-react-config",
+	"compilerOptions": {
+		// No emit.
+		"sourceMap": false,
+		"declaration": false,
+		"noEmit": true,
+
+		// Emit to a build directory.
+		"declarationDir": "build",
+		"outDir": "build"
+	}
 }

@@ -5,6 +5,10 @@
 		"lib": ["dom", "dom.iterable", "esnext"],
 
 		// React.
-		"jsx": "react-jsx"
+		"jsx": "react-jsx",
+
+		// Emit.
+		"sourceMap": true,
+		"declaration": true
 	}
 }
