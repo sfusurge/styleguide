@@ -1,9 +1,9 @@
 {
 	"compilerOptions": {
-		// Target ES5 with ES6 modules, for the browser.
-		"target": "ES5",
+		// Target ES2017 for performance, with CommonJS for NodeJS programs.
+		"target": "ES2017",
+		"module": "CommonJS",
 		"lib": ["esnext"],
-		"module": "esnext",
 		"types": ["jest"],
 
 		// We write code exclusively in TypeScript.
@@ -29,5 +29,9 @@
 		// Features.
 		"experimentalDecorators": true
 	},
-	"exclude": ["**/*.test.ts", "**/*.test.tsx"]
+	"exclude": [
+		// Tests.
+		"**/*.test.ts",
+		"**/*.test.tsx",
+	]
 }

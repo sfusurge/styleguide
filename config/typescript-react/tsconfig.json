@@ -1,8 +1,15 @@
 {
 	"extends": "@sfusurge/typescript-config",
 	"compilerOptions": {
+		// Target ES2017 for performance, with ESNext modules so Babel can use it.
+		"target": "ES2017",
+		"module": "ESNext",
+
 		// Add browser libraries.
 		"lib": ["dom", "dom.iterable", "esnext"],
+
+		// Add types so tests work correctly.
+		"types": ["jest", "@testing-library/react", "@testing-library/jest-dom"],
 
 		// React.
 		"jsx": "react-jsx",
@@ -10,5 +17,10 @@
 		// Emit.
 		"sourceMap": true,
 		"declaration": true
-	}
+	},
+	"include": ["src"],
+	"exclude": [
+		"**/*.test.ts",
+		"**/*.test.tsx",
+	],
 }

@@ -1,6 +1,10 @@
 {
 	"extends": "@sfusurge/typescript-react-config",
 	"compilerOptions": {
+		// Target ES6 for compatibility, with ESNext modules so Babel can use it.
+		"target": "ES6",
+		"module": "ESNext",
+
 		// No emit.
 		"sourceMap": false,
 		"declaration": false,
@@ -8,6 +12,6 @@
 
 		// Emit to a build directory.
 		"declarationDir": "build",
-		"outDir": "build"
+		"outDir": "build",
 	}
 }
