@@ -1,7 +1,7 @@
 {
 	"name": "@sfusurge/typescript-react-site",
 	"version": "0.0.0-set-by-ci",
-	"description": "Configuration for TypeScript + React modules.",
+	"description": "Configuration for TypeScript + React website.",
 	"main": "tsconfig.json",
 	"peerDependencies": {
 		"@sfusurge/typescript-react-config": "=0.0.0-set-by-ci",
@@ -9,7 +9,8 @@
 		"@sfusurge/surge-scripts": "=0.0.0-set-by-ci",
 		"craco": "=0.0.3",
 		"react": "*",
-		"react-dom": "*",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.4.1",
 		"react-scripts": "=5.0.1",
 		"sass": "*",
 		"typescript": "*"
