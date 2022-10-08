@@ -22,7 +22,7 @@ For unit testing, add a `test` script to run `surge-test` in `package.json`:
 {
   ...
   "scripts": {
-    "test": "surge-test"
+    "test": "surge-scripts test"
   }
   ...
 }
