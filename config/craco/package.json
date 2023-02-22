@@ -11,7 +11,7 @@
     "sass-resources-loader": "^2.2.5"
   },
   "peerDependencies": {
-    "craco": "*",
+    "@craco/craco": "=7.0.0",
     "react": "*",
     "react-scripts": "*"
   },
