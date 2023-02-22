@@ -5,6 +5,14 @@
 		"target": "ES6",
 		"module": "ESNext",
 
+		// Add types.
+		"types": [
+			"@sfusurge/craco-config",
+
+			// from: @sfusurge/typescript-react-config
+			"jest", "@testing-library/react", "@testing-library/jest-dom"
+		],
+
 		// No emit.
 		"sourceMap": false,
 		"declaration": false,
