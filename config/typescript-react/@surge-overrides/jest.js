@@ -24,6 +24,7 @@ module.exports = async (previous, extra) => {
 
 		moduleNameMapper: {
 			"^.+\\.(css|less|scss)$": "babel-jest", // Use CSS modules.
+			"^.+\\.jsonc$": "babel-jest", // Use JSON with comments.
 		},
 	});
 };
