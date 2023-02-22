@@ -11,4 +11,11 @@ module.exports = {
 			options: {}
 		}
 	],
+
+	rules: [
+		{
+			test: /.jsonc$/,
+			use: [{loader: `jsonc-loader`}],
+		},
+	],
 }

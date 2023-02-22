@@ -1,0 +1,4 @@
+{
+    // This is not valid JSON, but it is valid JSON with comments.
+    "test": true,
+}

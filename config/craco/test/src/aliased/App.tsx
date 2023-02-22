@@ -1,6 +1,8 @@
+/// <reference path="../../../globals.d.ts" />
 import './App.css';
 
 import React from 'react';
+import Data from '../jsonc-file.jsonc';
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React? {Data.test}
         </a>
       </header>
     </div>
